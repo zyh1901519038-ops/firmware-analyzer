@@ -1,5 +1,7 @@
 # fanalyzer
 
+[![tests](https://github.com/zyh1901519038-ops/firmware-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/zyh1901519038-ops/firmware-analyzer/actions/workflows/tests.yml)
+
 一个固件镜像分析的小工具，纯 Python 标准库，不装任何依赖。
 
 能做的事：在固件里找出文件系统和压缩流的位置、按块算熵判断哪段被压缩或加密、提取字符串、扫硬编码的口令和密钥。
